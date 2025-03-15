@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body style="padding: 20px" class="bg-secondary-subtle">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded shadow">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Welcome To The Wagin' Wash</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Services</a>
+                  <a class="nav-link" href="contact.html">Contacts</a>
+                  <a class="nav-link" href="appointments.html">Appointments</a>
+                </div>
+              </div>
+            </div>
+          </nav><br>
+<header>
+  <H2>Contacts</H2>
+</header>
+<table class="table shadow">
+  <thead>
+    <tr>
+      <th scope="col">Postion</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Contact Information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Office Manager</td>
+      <td>Scarlet</td>
+      <td>Olsen</td>
+      <td>303-123-4567</td>
+    </tr>
+    <tr>
+      <td>Head Groomer</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>JaFaThronton@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Groomer</td>
+      <td>Zakaria</td>
+      <td>Moses</td>
+      <td>ZaIsMoses@gmail.com</td>
+    </tr>
+  </tbody>
+</table><br>
+<div class="row" style="justify-content:center">
+  <div class="col-md-6  img-polaroid" ><img  src="Images/grooming-area2.jpg" alt="Dog grooming">
+    <div class="img-container">
+      <p>Our Trusted staff</p>
+    </div>
+  </div>
+  
+ 
+  
+  
+</div><br>
+<div class="container">
+  <div class="row text-center">
+    <form class="col-md-6">
+      <div>
+        <div >
+        <h3>Stay connected</h3>
+        <label for="StayConnectedInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" style="max-width: 500px;" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Submit</button>
+        <p>Stay connected to upcoming promotions and events</p>
+        </div>
+        <div id="emailHelp" >We'll never share your email with anyone else.</div>
+    </form>
+  </div>
+    <div class="col-md-6" >
+      <ul style="list-style-type: none">
+        <h3>Business Hours</h3>
+        <li>Monday    8am-5pm</li>
+        <li>Tuesday    8am-5pm</li>
+        <li>Wednesday    8am-5pm</li>
+        <li>Thursday    8am-5pm</li>
+        <li>Friday    8am-5pm</li>
+        <li>Saturday    10am-3pm</li>
+        <li>Sunday    Closed</li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+<footer>
+  <hr style="border: 3px solid white">
+  <p class="text-center">© 2025 Wagn' wash. All Rights Reserved</p>
+</footer>
+
+
 </body>
 </html>
